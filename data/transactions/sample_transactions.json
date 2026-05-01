@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TXN-001",
+    "description": "Transferí S/. 350 a la cuenta de Juan Pérez en BCP para pago de alquiler de departamento en Miraflores.",
+    "expected": {
+      "entity": "Juan Pérez",
+      "amount": 350.0,
+      "currency": "PEN",
+      "category": "alquiler",
+      "bank": "BCP",
+      "type": "transferencia_nacional"
+    }
+  },
+  {
+    "id": "TXN-002",
+    "description": "Recibí USD 1,200 desde cuenta de María García en Bank of America New York por concepto de honorarios profesionales por consultoría de febrero.",
+    "expected": {
+      "entity": "María García",
+      "amount": 1200.0,
+      "currency": "USD",
+      "category": "honorarios",
+      "bank": "Bank of America",
+      "type": "transferencia_internacional_entrada"
+    }
+  },
+  {
+    "id": "TXN-003",
+    "description": "Pagué S/. 89.90 en Saga Falabella San Isidro con tarjeta de débito BBVA, compra de ropa.",
+    "expected": {
+      "entity": "Saga Falabella",
+      "amount": 89.90,
+      "currency": "PEN",
+      "category": "retail",
+      "bank": "BBVA",
+      "type": "pago_comercio"
+    }
+  },
+  {
+    "id": "TXN-004",
+    "description": "Envié S/. 12,500 a Inversiones Andinas SAC RUC 20601234567 por adelanto de contrato de servicios de TI, desde cuenta corriente Interbank.",
+    "expected": {
+      "entity": "Inversiones Andinas SAC",
+      "amount": 12500.0,
+      "currency": "PEN",
+      "category": "servicios_ti",
+      "bank": "Interbank",
+      "type": "transferencia_nacional_empresa"
+    }
+  },
+  {
+    "id": "TXN-005",
+    "description": "Recarga de S/. 200 a Yape desde cuenta de ahorros BCP para gastos del mes.",
+    "expected": {
+      "entity": "Yape",
+      "amount": 200.0,
+      "currency": "PEN",
+      "category": "recarga_billetera",
+      "bank": "BCP",
+      "type": "recarga_dinero_electronico"
+    }
+  },
+  {
+    "id": "TXN-006",
+    "description": "Transferencia urgente de USD 8,500 hacia cuenta en Banco Santander Uruguay para pago de proveedor de materia prima, empresa Carlos Mendoza EIRL.",
+    "expected": {
+      "entity": "Carlos Mendoza EIRL",
+      "amount": 8500.0,
+      "currency": "USD",
+      "category": "pago_proveedor",
+      "bank": "Banco Santander Uruguay",
+      "type": "transferencia_internacional_salida"
+    }
+  },
+  {
+    "id": "TXN-007",
+    "description": "Retiro en cajero automático de S/. 1,000 en efectivo, BCP agencia Av. La Marina, Lima.",
+    "expected": {
+      "entity": "BCP",
+      "amount": 1000.0,
+      "currency": "PEN",
+      "category": "retiro_efectivo",
+      "bank": "BCP",
+      "type": "retiro_cajero"
+    }
+  },
+  {
+    "id": "TXN-008",
+    "description": "Pago de cuota de préstamo personal S/. 450.75 a Scotiabank, cuota 6 de 24, descuento automático de cuenta de ahorros.",
+    "expected": {
+      "entity": "Scotiabank",
+      "amount": 450.75,
+      "currency": "PEN",
+      "category": "pago_prestamo",
+      "bank": "Scotiabank",
+      "type": "pago_credito"
+    }
+  },
+  {
+    "id": "TXN-009",
+    "description": "Depósito en efectivo de S/. 4,800 en ventanilla BCP agencia Surco, declarado como venta de vehículo de segunda.",
+    "expected": {
+      "entity": "BCP",
+      "amount": 4800.0,
+      "currency": "PEN",
+      "category": "deposito_efectivo",
+      "bank": "BCP",
+      "type": "deposito_efectivo"
+    }
+  },
+  {
+    "id": "TXN-010",
+    "description": "Tres transferencias internacionales en 48 horas: USD 15,000 a Panama, USD 12,000 a Islas Caimán, USD 18,000 a Panama. Total: USD 45,000.",
+    "expected": {
+      "entity": "múltiples",
+      "amount": 45000.0,
+      "currency": "USD",
+      "category": "transferencias_internacionales_multiples",
+      "bank": "no_especificado",
+      "type": "patron_sospechoso_potencial"
+    }
+  }
+]
