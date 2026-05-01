@@ -1,7 +1,7 @@
 # Sesión 2 — Slides
 ## Multimodal RAG: del caso práctico al pipeline completo
 
-**Rodrigo López Vera** | Head of Data, Revolut Perú  
+**Rodrigo López Vera** | Data, Revolut Perú  
 Curso GenAI Multimodal · Mayo 2026
 
 ---
