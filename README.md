@@ -1,7 +1,7 @@
 # GenAI Multimodal Course — Google Gen AI SDK
 
 Materiales del curso de posgrado en Data/IA.  
-**Instructor:** Rodrigo López Vera — Head of Data, Revolut Perú
+**Instructor:** Rodrigo López Vera — Data, Revolut Perú
 
 ---
 
