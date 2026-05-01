@@ -1,7 +1,7 @@
 # Sesión 1 — Slides
 ## GenAI Multimodal con Google Gen AI SDK
 
-**Rodrigo López Vera** | Head of Data, Revolut Perú  
+**Rodrigo López Vera** | Data, Revolut Perú  
 Economista PUCP · MicroMasters MIT en Data Science  
 +5 años en ML aplicado a finanzas
 
